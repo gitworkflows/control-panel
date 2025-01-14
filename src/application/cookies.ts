@@ -33,6 +33,6 @@ function getDomain(): string | undefined {
   }
 
   if (environment === 'staging') {
-    return 'staging.koyeb.com';
+    return 'control-panel-red.vercel.app';
   }
 }

@@ -93,7 +93,7 @@ export default defineConfig({
   server: {
     port: 8000,
     proxy: {
-      '/v1': 'https://staging.koyeb.com',
+      '/v1': 'https://control-panel-red.vercel.app',
     },
   },
   preview: {

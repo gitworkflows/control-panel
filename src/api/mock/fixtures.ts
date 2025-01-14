@@ -112,13 +112,13 @@ export const catalogDatacenterFixtures = [
   createApiDatacenter({
     id: 'par1',
     region_id: 'par',
-    domain: 'glb-par1.infra.staging.koyeb.com',
+    domain: 'control-panel-red.vercel.app',
     coordinates: ['2.3522', '48.8566'],
   }),
   createApiDatacenter({
     id: 'fra1',
     region_id: 'fra',
-    domain: 'glb-fra1.infra.staging.koyeb.com',
+    domain: 'control-panel-red.vercel.app',
     coordinates: ['8.6821', '50.1109'],
   }),
 ];
